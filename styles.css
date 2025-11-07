@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.log{
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 300px;
+}
+
+.humanScore div,
+.computerScore div{
+    font-size: 50px;
+}
+
+h2{
+    margin: 0;
+}
+
+#reset{
+    display: none;
+}
